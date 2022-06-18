@@ -12,9 +12,21 @@ jobs:
         image:
           - name: latest
             python_version: "3.10"
+          - name: alpine
+            python_version: "3.10"
+          - name: slim
+            python_version: "3.10"
           - name: python3.10
             python_version: "3.10"
+          - name: python3.10-alpine3.16
+            python_version: "3.10"
+          - name: python3.10-slim
+            python_version: "3.10"
           - name: python3.9
+            python_version: "3.9"
+          - name: python3.9-alpine3.16
+            python_version: "3.9"
+          - name: python3.9-slim
             python_version: "3.9"
       fail-fast: true
     runs-on: ubuntu-18.04

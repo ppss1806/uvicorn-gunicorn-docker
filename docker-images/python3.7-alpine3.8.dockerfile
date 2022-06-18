@@ -1,6 +1,6 @@
 FROM python:3.7-alpine3.8
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="ppss1806 <ppss1806@gmail.com>"
 
 COPY requirements.txt /tmp/requirements.txt
 RUN apk add --no-cache --virtual .build-deps gcc libc-dev make \
