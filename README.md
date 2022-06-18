@@ -4,19 +4,13 @@
 
 * [`python3.10`, `latest` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.10.dockerfile)
 * [`python3.9`, _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9.dockerfile)
-* [`python3.8`, _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.8.dockerfile)
-* [`python3.7`, _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.7.dockerfile)
-* [`python3.6` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.6.dockerfile)
-* [`python3.10-slim` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.10-slim.dockerfile)
+* [`python3.10-slim`, `slim` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.10-slim.dockerfile)
 * [`python3.9-slim` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-slim.dockerfile)
-* [`python3.8-slim` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.8-slim.dockerfile)
 
 ## Discouraged tags
 
-* [`python3.9-alpine3.14` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-alpine3.14.dockerfile)
-* [`python3.8-alpine3.10` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.8-alpine3.10.dockerfile)
-* [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.7-alpine3.8.dockerfile)
-* [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.6-alpine3.8.dockerfile)
+* [`python3.10-alpine3.16`, `alpine` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.10-alpine3.16.dockerfile)
+* [`python3.9-alpine3.16` _(Dockerfile)_](https://github.com/ppss1806/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-alpine3.16.dockerfile)
 
 To learn more about why Alpine images are discouraged for Python read the note at the end: [🚨 Alpine Python Warning](#-alpine-python-warning).
 
